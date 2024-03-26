@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("anime.jpg");
+  }
+  
+  header {
+    background-color: #4c72af;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #4c54af;
+    color: white;
+  }
+  tr{
+    font-family: Arial, sans-serif;
+    color: white;
+
+  }
+  
+  fieldset {
+    border: 1px solid #ddd;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    color: white;
+  }
+  
+  legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fffdfd;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="number"] {
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    background-color: #4c6daf;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    opacity: 0.8;
+  }
